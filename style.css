@@ -1,3 +1,8 @@
+.imageronde{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .card{
     height: 100%;
 }
