@@ -6,7 +6,8 @@
 * date
 
 ## What is this ?
-
+It's a web page with my 10 favorite series. <br>
+My series are listed by genre and with a youtube link to the trailer.
 
 
 
@@ -27,7 +28,7 @@ Put into practice our knowledge learned during the training course
 
 ## Overview :collision:
 
-<!-- [![little overview](Overview.png)](https://joelle-everaert.github.io/Turlututu/)  -->
+[![little overview](Overview.png)()
 
 
 ### Original instruction
