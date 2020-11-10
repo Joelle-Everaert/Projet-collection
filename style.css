@@ -1,3 +1,37 @@
-.fab{
-    color:red;
+.card{
+    height: 100%;
 }
+
+.card-footer {
+    position: absolute;
+    left:40%;
+    border: none;
+    bottom: 2px;
+}
+
+.imageronde{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.fab{
+    color: red;
+}
+
+.fab:hover{
+    color:rgb(61, 73, 175)
+}
+
+.fab:active{
+    color: rgb(156, 190, 32);
+}
+
+

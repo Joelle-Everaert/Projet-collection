@@ -44,20 +44,20 @@ lise de serie
     * Bande annonce : https://www.youtube.com/watch?v=AbtiqJGhWyY
     * Rick Grimes cherche sa femme et son fils après s'être réveillé d'un long coma. Il découvre alors un monde désolé, ravagé par une terrible épidémie. -->
 
-8. Black Mirror
+<!-- 8. Black Mirror
     * Crée par Charlie Brooker 
     * Science-fiction   , thriller, anthologique 
     * Bande annonce : https://www.youtube.com/watch?v=nSDviEdvw4U
-    * Chaque épisode de cette anthologie montre la dépendance des hommes vis-à-vis de tout ce qui a un écran et les conséquences de cette dépendance.
+    * Chaque épisode de cette anthologie montre la dépendance des hommes vis-à-vis de tout ce qui a un écran et les conséquences de cette dépendance. -->
 
-9. Scorpion
+<!-- 9. Scorpion
     * Crée par Nick Santora
-    * Policier et drame 
+    * Policier et Drame 
     * Bande annonce : https://www.youtube.com/watch?v=BnIT59GUzto
-    * Inspiré d'une histoire vraie, le projet est centré Walter, un génie excentrique, et son réseau international de super-génies qui forment la dernière ligne de défense contre les menaces complexes du monde moderne.
+    * Inspiré d'une histoire vraie, le projet est centré Walter, un génie excentrique, et son réseau international de super-génies qui forment la dernière ligne de défense contre les menaces complexes du monde moderne. -->
 
-10. Les Simpsons
-    * Crée par Sam Simon, James L. Brooks et Matt Groening 
-    * Animation et comédie 
-    * Bande annonce : https://www.youtube.com/watch?v=SR8WWFzrZAg
-    * Les aventures des Simpson à Springfield. Homer travaille dans une centrale nucléaire et Marge s'occupe de sa progéniture : Bart, Lisa et Maggie.
+<!-- 10. The Umbrella Academy
+    * Crée par Jeremy Slater et Steve Blackman 
+    * Fantastique et Drame
+    * Bande annonce : https://www.youtube.com/watch?v=95mXLi_6tW8
+    * Une famille de super-héros déjantés se réunit pour tenter de résoudre le mystère entourant la mort de leur père, la menace d'une apocalypse et bien plus encore. Adaptée de la bande dessinée de Gerard Way et Gabriel Bá. -->
