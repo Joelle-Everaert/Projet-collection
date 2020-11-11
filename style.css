@@ -1,9 +1,17 @@
-/* body{
-    background-color: gainsboro
-} */
+body{
+    background-color:#A0A0A0;
+}
 
 .card{
     height: 100%;
+    filter: drop-shadow(0 0 0.75rem white);
+    /* effet zoom card */
+    transition:  0.3s ease;
+}
+
+/* effet zoom card */
+.card:hover{
+    transform:scale(1.04);
 }
 
 .card-footer {
@@ -38,18 +46,6 @@
 .fab:active{
     color: rgb(156, 190, 32);
 }
-
-/* .card{
-	filter: grayscale(90%);
-	transition: 0.6s ease-in-out;
-}
-
-
-.card:hover{
-    filter: grayscale(0);
-} */
-
-
 
 @media screen and (max-width: 460px){
     .imageronde{
