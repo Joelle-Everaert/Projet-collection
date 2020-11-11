@@ -24,14 +24,14 @@ body{
 .imageronde{
     display: flex;
     flex-direction: row;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
 
 .presentation{
     display: flex;
     flex-direction: column;
     margin-left: 2%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .fab{
@@ -47,7 +47,7 @@ body{
     color: rgb(156, 190, 32);
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 768px){
     .imageronde{
         display: flex;
         flex-direction: column;
