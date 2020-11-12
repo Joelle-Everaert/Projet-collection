@@ -42,7 +42,7 @@ const collection = [
         {
             title: 'Stranger Things',
             author: ['Matt Duffer', 'Ross Duffer'],
-            category: ['Science-fiction', 'Horror'],
+            category: ['Science fiction', 'Horror'],
             link: 'https://www.youtube.com/watch?v=IZeBDCuApTo',
             description: "À Hawkins, dans l'Indiana, en 1983. Lorsque Will Byers disparaît de son domicile, ses amis se lancent dans une recherche semée d'embûches pour le retrouver.",
         },
@@ -58,7 +58,7 @@ const collection = [
         {
             title: 'Black Mirror',
             author: 'Charlie Brooker',
-            category: ['Science-fiction', 'Thriller'],
+            category: ['Science fiction', 'Thriller'],
             link: 'https://www.youtube.com/watch?v=nSDviEdvw4U',
             description: "haque épisode de cette anthologie montre la dépendance des hommes vis-à-vis de tout ce qui a un écran et les conséquences de cette dépendance.",
         },
