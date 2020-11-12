@@ -1,29 +1,68 @@
-<div class="container">
-    <!-- PREMIERE LIGNE -->
-    <div class="columns pb-5">
-        <!-- CARTE 1 -->
-        <div class="column is-3">
-            <div class="card has-background-white-ter">
-                <div class="card-image has-text-centered px-8">
-                    <img src="./photos/friends.jpg" alt="friendsimage">
-                </div>
-                <div class="card-content">
-                    <span class="tag is-primary">Comedy</span>
-                    <span class="tag is-danger">Romance</span>
-                    <p class="title is-3">Friends</p>
-                    <p class="subtitle is-6">By Marta Kauffman & David Crane</p>
+<!DOCTYPE html>
+<html>
 
-                    <div class="content has-text-justified">
-                        Les péripéties de six jeunes new-yorkais liés par une profonde amitié. Entre amour,
-                        travail et
-                        famille, ils partagent leurs bonheurs et leurs soucis.
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joelle's collection</title>
+    <link rel="icon" href="./photos/favicon.ico" type="image/png" />
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!-- <link rel="stylesheet" href="/debug.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <header>
+                <div class="imageronde">
+                    <figure class="image is-128x128">
+                        <img class="is-rounded" src="./photos/me.jpeg">
+                    </figure>
+                    <div class="presentation">
+                        <h1 class="title has-text-black">
+                            Joëlle's series collection
+                        </h1>
+                        <p class="subtitle has-text-black">Hello, you are here because you are looking for some
+                            information about
+                            some series. Here are my choices. The order doesn't matter. Enjoy ;-) !</p>
                     </div>
-                    <footer class="card-footer">
-                        <a href="https://www.youtube.com/watch?v=-6-rrJIL-nM" target="_blank"
-                            class="card-footer-item fas fa-2x"><i class="fab fa-youtube-square"></i></i></a>
-                    </footer>
+                </div>
+            </header>
+
+            <div class="containercard">
+                <!-- PREMIERE LIGNE -->
+                <div class="columns pb-5">
+                    <!-- CARTE 1 -->
+                    <div class="column is-3">
+                        <div class="card has-background-white-ter">
+                            <div class="card-image has-text-centered px-8">
+                                <img src="./photos/friends.jpg" alt="friendsimage">
+                            </div>
+                            <div class="card-content">
+                                <span class="tag is-primary">Comedy</span>
+                                <span class="tag is-danger">Romance</span>
+                                <p class="title is-3">Friends</p>
+                                <p class="subtitle is-6">By Marta Kauffman & David Crane</p>
+
+                                <div class="content has-text-justified">
+                                    Les péripéties de six jeunes new-yorkais liés par une profonde amitié. Entre amour,
+                                    travail et
+                                    famille, ils partagent leurs bonheurs et leurs soucis.
+                                </div>
+                                <footer class="card-footer">
+                                    <a href="https://www.youtube.com/watch?v=-6-rrJIL-nM" target="_blank"
+                                        class="card-footer-item fas fa-2x"><i class="fab fa-youtube-square"></i></i></a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        </div>  
+    </section>
+    <script src="./collection.js"></script>
+</body>
+
+</html>
