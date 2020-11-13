@@ -183,6 +183,7 @@ const collection = [
 
 // DEBUT DU JS
 
+// CONTAINERCARD
     const containercard = document.querySelector('.containercard');
     containercard.innerHTML='';
 
@@ -191,17 +192,45 @@ const collection = [
 
     containercard.appendChild(columns);
     
+        //FILTRE EXO --> changé la grosse boucle 
+        // for (let element of collection par la nom de notre constante)
+        
+        // ==> serie en deux mots
 
+        // const serieEnDeuxMots = []
+        // for (let element of collection){
+        //     if(element.title.match(' ')){
+        //         serieEnDeuxMots.push(element)
+        //     }
+        // }
+
+        // ==> serie commence par H
+
+        // const serieParH =[]
+        // for (let element of collection){
+        //     if(element.title.startsWith('H')){
+        //         serieParH.push(element)
+        //     }
+        // }
+
+        // Serie par genre
+
+        // const serieParGenre =[]
+        // for(let element of collection){
+        //     if(element.category.find(c => c.genre === 'Horror')){
+        //         serieParGenre.push(element)
+        //     }
+        // }
+    
     for (let element of collection) {
 
-    // Premiere partie de la carte
-       
+// Column
         const column = document.createElement('div');
         column.className = 'column is-one-quarter'; 
 
         const card = document.createElement('div')
         card.className ='card has-background-white-ter'
-
+// Image
         const imageContent=document.createElement('div')
         imageContent.className = 'card-image has-text-centered px-8'
         
@@ -215,13 +244,12 @@ const collection = [
         column.appendChild(card);
         columns.appendChild(column);
 
-    // fin de premiere partie de la carte
-       
-        
-    // contenue de la carte (tag/titre/contenu)
+// CARD-CONTENT      
 
         const cardContent= document.createElement('div');
         cardContent.className = 'card-content'
+
+    // TAG (on fait une boucle)
 
     for (let tag of element.category) {
         const tag1 = document.createElement('span');
@@ -248,7 +276,7 @@ const collection = [
         cardContent.appendChild(subtitle)
         cardContent.appendChild(content)
 
-    // début du footer 
+//FOOTER
         
         const footer= document.createElement('footer');
         footer.className = 'card-footer'
@@ -265,21 +293,10 @@ const collection = [
         lienYoutube.appendChild(iconeYoutube)
         cardContent.appendChild(footer)
         footer.appendChild(lienYoutube)
-
-    //fin du footer 
-
-// FIN JS
-        
-
-        
-
-        
-        
-
-
-       
     
     }
+//FIN JS
+
 
     
 
