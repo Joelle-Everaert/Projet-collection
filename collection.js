@@ -6,7 +6,7 @@ const collection = [
             category: [
                 {
                     genre: 'Comedy',
-                    tagStyle : "tag is-primary"
+                    tagStyle : "tag is-primary mx-2"
                 },
                 {
                     genre: 'Romance',
@@ -24,7 +24,7 @@ const collection = [
             category: [
                 {
                     genre: 'Comedy',
-                    tagStyle : "tag is-primary"
+                    tagStyle : "tag is-primary mx-2"
                 },
                 {
                     genre: 'Romance',
@@ -42,7 +42,7 @@ const collection = [
             category: [
                 {
                     genre: 'Comedy',
-                    tagStyle : "tag is-primary"
+                    tagStyle : "tag is-primary mx-2"
                 },
                 {
                     genre: 'Drama',
@@ -60,7 +60,7 @@ const collection = [
             category: [
                 {
                     genre: 'Thriller',
-                    tagStyle : "tag is-warning"
+                    tagStyle : "tag is-warning mx-2"
                 },
                 {
                     genre: 'Mystery',
@@ -78,7 +78,7 @@ const collection = [
             category: [
                 {
                     genre: 'Fantasy',
-                    tagStyle : "tag is-info"
+                    tagStyle : "tag is-info mx-2"
                 },
                 {
                     genre: 'Drama',
@@ -96,7 +96,7 @@ const collection = [
             category: [
                 {
                     genre: 'Science fiction',
-                    tagStyle : "tag is-black"
+                    tagStyle : "tag is-black mx-2"
                 },
                 {
                     genre:'Horror',
@@ -114,7 +114,7 @@ const collection = [
             category: [
                 {
                     genre:'Horror',
-                    tagStyle :"tag is-light"
+                    tagStyle :"tag is-light mx-2"
                 },
                 {
                     genre:'Drama',
@@ -132,7 +132,7 @@ const collection = [
             category: [
                 {
                     genre: 'Thriller',
-                    tagStyle : "tag is-warning"
+                    tagStyle : "tag is-warning mx-2"
                 },
                 {
                     genre:'Science fiction',
@@ -150,7 +150,7 @@ const collection = [
             category: [
                 {
                     genre:'Mystery',
-                    tagStyle :"tag is-dark"
+                    tagStyle :"tag is-dark mx-2"
                 },
                 {
                     genre:'Drama',
@@ -168,7 +168,7 @@ const collection = [
             category: [
                 {
                     genre:'Fantastic',
-                    tagStyle :"tag is-success"
+                    tagStyle :"tag is-success mx-2"
                 },
                 {
                     genre:'Drama',
@@ -222,10 +222,13 @@ const collection = [
 
         const cardContent= document.createElement('div');
         cardContent.className = 'card-content'
-    
-    
-        // ajourt tag ici
 
+    for (let tag of element.category) {
+        const tag1 = document.createElement('span');
+        tag1.innerText = tag.genre;
+        tag1.className = tag.tagStyle;
+        cardContent.appendChild(tag1);
+        }
 
         const title = document.createElement('p')
         title.className= 'title is-3'
@@ -241,7 +244,6 @@ const collection = [
         content.textContent= element.description
 
         card.appendChild(cardContent)
-        // ajout tag ici
         cardContent.appendChild(title)
         cardContent.appendChild(subtitle)
         cardContent.appendChild(content)
