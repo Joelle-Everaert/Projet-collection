@@ -1,43 +1,34 @@
 // DEBUT DU JS
 
 // CONTAINERCARD
+
 const containercard = document.querySelector('.containercard');
 containercard.innerHTML='';
+
+//creation encadré de recherche
+
+// const formulaireDeRecherche = document.createElement('input');
+// containercard.appendChild(formulaireDeRecherche );
+// //creation de l'evenement
+// formulaireDeRecherche.addEventListener('change', inputTexteUtilisateur => {
+//     serieFiltrer(inputTexteUtilisateur.target.value)
+// })
 
 const columns = document.createElement('div')
 columns.className='columns is-multiline'
 
 containercard.appendChild(columns);
+ 
+//pour l'input
+//fonction se ferme en fin de boucle
+// function serieFiltrer (search){
+//     const result=[]
 
-    //FILTRE EXO --> changé le nom de la grosse boucle 
-    // for (let element of collection par la nom de notre constante)
-    
-    // ==> serie en deux mots
-
-    // const serieEnDeuxMots = []
-    // for (let element of collection){
-    //     if(element.title.match(' ')){
-    //         serieEnDeuxMots.push(element)
-    //     }
-    // }
-
-    // ==> serie commence par H
-
-    // const serieParH =[]
-    // for (let element of collection){
-    //     if(element.title.startsWith('H')){
-    //         serieParH.push(element)
-    //     }
-    // }
-
-    // Serie par genre
-
-    // const serieParGenre =[]
-    // for(let element of collection){
-    //     if(element.category.find(c => c.genre === 'Horror')){
-    //         serieParGenre.push(element)
-    //     }
-    // }
+// for(let element of collection){
+//     if(element.title.match(search) || element.description.match(search)){
+//         result.push(element)
+//     }
+// }
 
 for (let element of collection) {
 
@@ -110,6 +101,8 @@ for (let tag of element.category) {
     lienYoutube.appendChild(iconeYoutube)
     cardContent.appendChild(footer)
     footer.appendChild(lienYoutube)
-
+   
 }
+// }
+
 //FIN JS
